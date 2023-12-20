@@ -1,0 +1,27 @@
+{
+  "type" : "record",
+  "name": "UserInfoAvro",
+  "namespace": "com.pkletsko.integration.model.avro",
+  "fields": [
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "pi",
+      "type": "double"
+    },
+    {
+      "name": "universityDegree",
+      "type": "boolean"
+    }
+  ]
+}
